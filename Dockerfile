@@ -14,7 +14,6 @@ WORKDIR /app
 COPY requirements.txt /app
 COPY src/ /app/src
 COPY data/ /app/data
-COPY run.sh /app
 
 # Install needed packages
 RUN pip install -r /app/requirements.txt
@@ -25,6 +24,3 @@ RUN groupadd -r appuser && \
     chown -R appuser /app 
 
 USER appuser
-
-# Run the shell script when the container launches
-CMD ["/bin/bash" , "run.sh"]
