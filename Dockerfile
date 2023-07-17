@@ -13,6 +13,7 @@ WORKDIR /app
 # Copy files into Container working directory
 COPY requirements.txt /app
 COPY src/ /app/src
+COPY data/ /app/data
 COPY run.sh /app
 
 # Install needed packages
