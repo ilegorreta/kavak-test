@@ -51,6 +51,8 @@ It is also posible to manually create a Docker image based on this Dockerfile an
 ## Directory Tree Structure
 It is noteworthy pointing out the directory structure of the repository:
 ```
+├── .devcontainer
+│   └── devcontainer.json
 ├── Dockerfile
 ├── README.md
 ├── data
