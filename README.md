@@ -46,7 +46,7 @@ It is also posible to manually create a Docker image based on this Dockerfile an
 
 5. Wait while the devcontainer is built and initialized, this may take several minutes
 
-6. Run ```/app/src/main.py``` within the DevContainer in VS Code
+6. Run ```python /app/src/main.py``` within the DevContainer in VS Code
 
 ## Directory Tree Structure
 It is noteworthy pointing out the directory structure of the repository:
